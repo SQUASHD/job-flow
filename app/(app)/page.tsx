@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Job Flow",
+  description: "A local app for managing job applications",
+};
+
 export default function Home() {
   return (
     <main className="h-full w-full flex flex-col items-center justify-center">
